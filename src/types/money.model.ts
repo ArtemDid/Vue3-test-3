@@ -1,6 +1,6 @@
 export interface CurrencyValue {
   value: number
-  currency: Currency
+  currency: Currency | string
 }
 
 export enum Currency {
